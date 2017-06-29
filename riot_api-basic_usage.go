@@ -36,9 +36,9 @@ func main() {
 
 	api := API{
 		Url: "https://%s.api.pvp.net/api/lol/%s/%s/summoner/by-name/%s?api_key=%s",
-		Key: "<YOUR-KEY-HERE>",
-		Region: "<REGION-HERE>",
-		Version: "<API-VERSION-HERE>",
+		Key: "<coloque aqui a sua API KEY>",
+		Region: "<REGIAO-DO-SERVER>",
+		Version: "<VERSÂO-DA-API>",
 	}
 
 	fmt.Printf("Response: %s \n", api.getSummoner("<SUMMONER-NAME-HERE>") )
