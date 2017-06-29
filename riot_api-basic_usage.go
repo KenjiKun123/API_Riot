@@ -41,6 +41,6 @@ func main() {
 		Version: "<VERSÂO-DA-API>",
 	}
 
-	fmt.Printf("Response: %s \n", api.getSummoner("<SUMMONER-NAME-HERE>") )
+	fmt.Printf("Response: %s \n", api.getSummoner("<SUMMONER-NAME>") )
 
 }
